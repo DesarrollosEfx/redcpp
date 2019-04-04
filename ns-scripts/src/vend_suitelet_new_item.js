@@ -90,7 +90,7 @@ define(MODULES, (record, search, https, format) => {
     logGeneral('Send body to api', body);
     const response = https.post({
       body: JSON.stringify(body),
-      url: 'https://rizer-redcpp.now.sh/nyscollection/create-products',
+      url: 'https://rizer-redcppe.now.sh/nyscollection/create-products',
       headers: {
         'Accept': 'application/json',
         'Content-Type': 'application/json',
