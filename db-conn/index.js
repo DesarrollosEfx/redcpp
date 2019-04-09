@@ -25,10 +25,10 @@ urlList.forEach(({url, fun}) => {
   });
 })
 
-const server = app
-  .use(router.routes())
-  .use(router.allowedMethods())
-  .listen(3000);
+//const server = app
+  //.use(router.routes())
+  //.use(router.allowedMethods())
+  //.listen(3000);
 
   app.use(router.routes())
   app.use(router.allowedMethods())
