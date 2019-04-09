@@ -1,3 +1,4 @@
+
 const Koa = require('koa');
 const bodyParser = require('koa-bodyparser');
 const Router = require('koa-router');
@@ -28,5 +29,9 @@ const server = app
   .use(router.routes())
   .use(router.allowedMethods())
   .listen(3000);
+
+  app.use(router.routes())
+  app.use(router.allowedMethods())
+  app.listen(3000);
 
 console.log('http://127.0.0.1:3000');
