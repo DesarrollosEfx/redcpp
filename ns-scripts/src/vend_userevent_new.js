@@ -24,7 +24,7 @@
     logGeneral('Send body to api', body);
     const response = https.post({
       body: JSON.stringify(body),
-      url: 'https://rizer-redcppe-7r973aduh.now.sh/nyscollection/inventory-adjustment',
+      url: 'https://rizer-redcppa-ci7fnztpk.now.sh/nyscollection/inventory-adjustment',
       headers: {
         'Accept': 'application/json',
         'Content-Type': 'application/json',
